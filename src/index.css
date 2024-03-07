@@ -1,0 +1,268 @@
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.head-1 {
+  margin-top: 200px;
+  background-color: rgb(164, 235, 243);
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.head {
+  background-color: darkgray;
+  width: 100%;
+  height: 100vh;
+}
+.first {
+  margin-top: 100px;
+  color: white;
+}
+.photo {
+  height: 100vh;
+  width: 101%;
+  border-radius: 50% 10% 50% 10%/ 50% 10% 50% 10%;
+  border: 4px solid #00fffc;
+}
+.banner.silde {
+  display: block;
+  margin-top: -300px;
+  background-color: rgb(164, 235, 243);
+}
+.head-2 .para .para-1 {
+  width: auto;
+  height: auto;
+  background-color: rgb(242, 187, 94);
+}
+.para .para-1 {
+  text-align: justify;
+}
+.head-3 {
+  background-color: #ccf2f4;
+}
+.photo-me {
+  width: 600px;
+  height: 650px;
+  border-radius: 20px;
+  margin-left: 600px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: rgb(22, 69, 209);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.home-page {
+  margin-top: 10px;
+}
+
+.home-page a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  letter-spacing: 0.5px;
+  gap: 0px 10px;
+  position: relative;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 2px;
+  gap: 0px 10px;
+  transition: 0.5s linear;
+}
+a:hover {
+  color: aqua;
+}
+a:hover::after {
+  width: 100%;
+}
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.review {
+  width: 300px;
+  background-color: #fff;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.review img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.review h3 {
+  color: #333;
+}
+
+.review p {
+  color: #555;
+}
+.review {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ourpright {
+  background-color: rgb(210, 224, 251);
+  position: relative;
+  text-shadow: 0 0 30px #09f5f1, 0 0 30px #0cf7f3;
+}
+
+.foot-loc {
+  background-color: rgb(249, 243, 204);
+}
+.card {
+  background-color: rgb(164, 235, 243);
+}
+
+.contact-form-container {
+  width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e914, 0 0 15px #03e914, 0 0 25px #03e914,
+    0 0 100px #03e914;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #03e914;
+  color: black;
+  font-size: large;
+  font-weight: 1000;
+  cursor: pointer;
+  border-radius: 500px;
+  -webkit-box-reflect: below 7px linear-gradient(transparent, #0005);
+  box-shadow: 0 0 5px #03e914, 0 0 15px #03e914, 0 0 25px #03e914,
+    0 0 100px #03e914;
+}
+
+input[type="submit"]:hover {
+  background-color: green;
+}
+.img-fluid .rounded-start {
+  height: 100%;
+}
+.ourpright h1 {
+  color: transparent;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #03e914;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.dd h1 {
+  text-align: center;
+}
+.page-1 {
+  color: white;
+  background-color: rgb(139, 229, 238);
+}
+.tit {
+  color: #333;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+.tit-1 {
+  font-weight: 500;
+}
+.tit-2 {
+  color: black;
+}
